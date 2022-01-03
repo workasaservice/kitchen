@@ -1,0 +1,10 @@
+﻿using System.Collections.Generic;
+using WaaS.Kitchen.Core.ProjectAggregate;
+
+namespace WaaS.Kitchen.Web.Endpoints.ProjectEndpoints
+{
+    public class ProjectListResponse
+    {
+        public List<ProjectRecord> Projects { get; set; } = new();
+    }
+}
